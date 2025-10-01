@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Feedback Form</title>
+    <style>
+      body {
+        font-family: 'Times New Roman', Times, serif;
+        padding: 20px;
+        background: #f9f9f9;
+      }
+
+      form {
+        max-width: 400px;
+        margin: 20px auto;
+        background: white;
+        padding: 20px;
+        border-radius: 6px;
+        border: 1px solid #ccc;
+      }
+
+      form h2 {
+        margin-bottom: 15px;
+        font-size: 20px;
+        text-align: center;
+      }
+
+      input,
+      textarea,
+      select,
+      button {
+        width: 100%;
+        padding: 10px;
+        height: 40px;
+        box-sizing: border-box;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 14px;
+      }
+
+      textarea {
+        height: auto;
+      }
+
+      button {
+        background-color: #420505;
+        color: white;
+        border: none;
+        cursor: pointer;
+      }
+
+      button:hover {
+        background-color: hsl(303, 34%, 49%);
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <h2>Feedback</h2>
+      <input type="text" placeholder="Name " />
+      <input type="email" placeholder="Email " />
+      <select>
+        <option value="">How was your experience?</option>
+        <option>Excellent</option>
+        <option>Good</option>
+        <option>Average</option>
+        <option>Poor</option>
+      </select>
+      <textarea placeholder="Your comments..." rows="4"></textarea>
+      <button type="submit">Submit Feedback</button>
+    </form>
+  </body>
+</html>
