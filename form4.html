@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        div {
+            background-color: rgb(238, 232, 232);
+            height: 638px;
+            width: 600px;
+            justify-self: center;
+            justify-items: center;
+            padding: 5px;
+            margin-top: 50px;
+        }
+
+        input {
+            text-align: center;
+            font-size: 15px;
+        }
+
+        textarea {
+            padding: 15px 20px;
+        }
+
+        label,
+        input {
+            padding: 8px 30px;
+        }
+
+        label,
+        button {
+            margin: 2px 30px;
+        }
+
+        #sub {
+            margin-left: 160px;
+            margin-right: 8px;
+        }
+
+        label {
+            font-size: 18px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1><u>Registration Form</u></h1>
+        <label for="">First Name</label><input type="text" name="fname"><br><br>
+        <label for="">Last Name</label><input type="text" name="lname"><br><br>
+        <label for="">Nick Name</label><input type="text" name="nickname"><br><br>
+        <label for="">Email</label><input type="email" name="email"><br><br>
+        <label for="">Password</label><input type="password" name="password"><br><br>
+        <label for="">Date of Birth</label><input type="date" name="dob"><br><br>
+        <label for="">Gender</label>
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female
+        <input type="radio" name="gender" value="other"> Other
+        <br><br>
+        <label for="">Mobile No</label><input type="text" maxlength="10" name="mno"><br><br>
+        <label for="">Address</label><textarea name="" id="" name="address"></textarea><br><br>
+        <input type="submit" value="Submit" id="sub">&nbsp;&nbsp;
+        <input type="submit" value="Reset" id="reset">
+    </div>
+</body>
+
+
+</html>
